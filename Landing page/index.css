@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.conatiner{
+    width: 100%;
+    height: 100vh;
+}
+.main{
+
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+
+    filter: grayscale(1);
+    background-image:  url(bc-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.main > h4{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    padding-left: 45%;
+    padding-top: 5%;
+
+}
+.main > h1{
+    color: white;
+    font-size: 230px;
+    font-weight: 500;
+    padding-top: 8%;
+   padding-left: 15%;
+
+   
+
+}
+.btn{
+    width: 150px;
+    max-height: 60px;
+    padding: 15px;
+    border: 0;
+   background-color: white;
+   color: black;
+   font-size: 15px;
+   font-weight: 600;
+margin-left: 50%;
+    margin-top: 2%;
+   cursor: pointer;
+  
+}
+
+.second-page{
+    background-color:rgb(241, 235, 226);
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.left-page{
+    width: 60%;
+    /* padding: 40px 35px; */
+    /* background-color: #fff; */
+    /* border: 2px solid navy; */
+    display: flex;
+}
+.card{
+    height: 400px;
+    width: 300px;
+   box-shadow: rgba(48, 36, 43, 0.4) 5px 5px, rgba(59, 51, 56, 0.3) 10px 10px, rgba(66, 62, 65, 0.2) 15px 15px, rgba(148, 146, 147, 0.1) 20px 20px, rgba(167, 163, 165, 0.05) 25px 25px;
+   cursor: pointer;
+   transition: transform 0.5s;
+   transition: ease 0.5s;
+   overflow: hidden;
+
+}
+.card:hover{
+    transform: translateY(-10px);
+    transform: scale(1.05);
+}
+.card1{
+    position: relative;
+    top: 15%;
+    left: 30%;
+    background-image: url(coffee.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card2{
+    position: relative;
+    top: 40%;
+    left: 35%;
+    background-image: url(bread.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.right-page{
+    width: 55%;
+    display: flex;
+    align-items: center;
+
+}
+.right-content{
+    width: 50%;
+    padding: 10px 30px;
+    /* margin-bottom: 60px; */
+}
+.heading{
+    font-size: 50px;
+    padding-bottom: 10px;
+    font-weight: 900;
+    font-family: monospace;
+}
+.para{
+    font-size: 20px;
+    font-family: monospace;
+    line-height: 25px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.right-page-btn{
+    max-height: 60px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: monospace;
+    padding: 12px;
+    border: 0;
+    cursor: pointer;
+}
+.third-page{
+    width: 100%;
+    height: 70%;
+    background-color:rgb(241, 235, 226);
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    align-items: center;
+}
+.third-content{
+    width: 80%;
+    height: 75%;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+ 
+
+}
+/* .card-img1{
+    background-image: url(coffee.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+}
+.card a{
+    position: relative;
+    top: 102%;
+    left: 10%;
+}
+.card-img{
+    margin-right: 120px;
+} */
+
+.left-content{
+    width: 25%;
+    height: 100%;
+    padding: 20px 30px;
+    /* border: 2px solid rebeccapurple; */
+    margin-right: 5px;
+}
+.right-content-img{
+    width: 75%;
+    height: 100%;
+    padding: 5px;
+    /* border: 2px solid rebeccapurple; */
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.img-card1{
+    background-image: url(Mouthwatering\ appetizers.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.img-card2{
+    background-image: url(Wholesome\ Mains.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
+}
+.img-card3{
+    background-image: url(Sweet\ endings.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.left-content > h1 {
+    font-size: 60px;
+    font-family: monospace;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.left-content > p{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bolder;
+
+
+}
+.img-card1-link{
+    position: relative;
+    left: 50%;
+    top: 105%;
+    transform: translate(-25%,-25%);
+   
+}
+.img-card1-link > a{
+    font-size: 15px;
+    font-family: monospace;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: black;
+   
+
+}
+.img-card1-link > a:hover{
+    color: brown;
+}
+.final-page{
+    width: 100%;
+    height: 90%;
+    background-color:rgb(241, 235, 226);
+    display: flex;
+}
+.final-left-page{
+    width: 45%;
+    height: 100%;
+    background-image: url(Bc-2.jpg);
+    filter: sepia(100);
+    background-size: cover;
+    background-position: center;
+    /* transform: scale(1.15);
+    overflow: hidden; */
+   
+}
+.final-right-page{
+
+   width: 55%;
+
+}
+.upper-part{
+    height: 40%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upper-part > h1{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: monospace;
+}
+
+.lower-part{
+    height: 60%;
+    width: 100%;
+
+    padding-left: 30%;
+    padding-top: 2%;
+}
+.lower-part > h3{
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.lower-part > p{
+ 
+    font-family: monospace;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
